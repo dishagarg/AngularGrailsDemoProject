@@ -1,0 +1,18 @@
+{
+    "name": "CustomerManagementForum",
+    "description": "A tutorial project for GTLC referring John Papa's style guide",
+    "keywords": [
+        "CustomerManagementForum",
+        "Management",
+        "Customer",
+        "Forum",
+        "seed",
+        "johnpapa",
+        "styleguide",
+        "node",
+        "express"
+    ],
+    "repository": "https://github.com/",
+    "success_url": "/",
+    "addons": []
+}

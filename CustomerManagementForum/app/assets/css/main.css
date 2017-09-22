@@ -1,0 +1,12 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.table > tbody > tr > td.active {
+    background-color: #dff0d8;
+}
+.form-control[disabled], .form-control[readonly], .fieldset[disabled], .form-control {
+    cursor: pointer;
+    background-color: white;
+}
+.search-bar {
+    margin: 0 0 20px 0;
+}

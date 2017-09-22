@@ -1,0 +1,38 @@
+[
+    {
+        "id": "200001",
+        "firstName": "Disha",
+        "lastName": "Garg",
+        "company": "Apple",
+        "address": "3646 Nice St. Vancouver",
+        "date": "11/11/2015",
+        "emailAddress": "d.garg@apple.com"
+    },
+    {
+        "id": "200002",
+        "firstName": "Jen",
+        "lastName": "Benson",
+        "company": "Salesforce",
+        "address": "3646 Main St. Vancouver",
+        "date": "12/11/2015",
+        "emailAddress": "j.benson@sf.com"
+    },
+    {
+        "id": "200003",
+        "firstName": "Kyle",
+        "lastName": "Makenzie",
+        "company": "JEA",
+        "address": "3336 Alder St. Victoria",
+        "date": "13/11/2015",
+        "emailAddress": "k.makenzie@jea.ca"
+    },
+    {
+        "id": "200004",
+        "firstName": "Steve",
+        "lastName": "Bennet",
+        "company": "Tesla",
+        "address": "1246 Welch St. Victoria",
+        "date": "14/11/2015",
+        "emailAddress": "s.bennet@tesla.com"
+    }
+]

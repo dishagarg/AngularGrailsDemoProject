@@ -1,0 +1,19 @@
+{
+    "app.title.name": "Clients SAP",
+    "app.dashboard.heading": "Liste des clients",
+    "app.nav.view.customer": "Voir les clients",
+    "app.nav.add.customer": "Ajouter un client",
+    "app.table.id": "ID",
+    "app.table.firstName": "Prénom",
+    "app.table.lastName": "Nom de famille",
+    "app.table.company": "Compagnie",
+    "app.table.address": "Adresse",
+    "app.table.signUpDate": "Date d'inscription",
+    "app.table.emailAddress": "Adresse e-mail",
+    "app.button.delete": "Supprimer le client",
+    "app.button.edit": "Modifier le client",
+    "app.button.yes": "Oui",
+    "app.button.no": "Non",
+    "app.modal.delete.heading": "Confirmation de la suppression",
+    "app.modal.delete.body": "Êtes-vous sûr de vouloir supprimer ce client?"
+}

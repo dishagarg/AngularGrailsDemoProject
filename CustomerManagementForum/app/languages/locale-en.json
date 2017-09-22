@@ -1,0 +1,19 @@
+{
+    "app.title.name": "SAP Customers",
+    "app.dashboard.heading": "Customers List",
+    "app.nav.view.customer": "View Customers",
+    "app.nav.add.customer": "Add Customer",
+    "app.table.id": "ID",
+    "app.table.firstName": "First Name",
+    "app.table.lastName": "Last Name",
+    "app.table.company": "Company",
+    "app.table.address": "Address",
+    "app.table.signUpDate": "Sign-up Date",
+    "app.table.emailAddress": "Email Address",
+    "app.button.delete": "Delete Customer",
+    "app.button.edit": "Edit Customer",
+    "app.button.yes": "Yes",
+    "app.button.no": "No",
+    "app.modal.delete.heading": "Confirm Delete",
+    "app.modal.delete.body": "Are you sure you want to delete this customer?"
+}

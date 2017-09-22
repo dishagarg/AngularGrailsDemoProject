@@ -1,0 +1,37 @@
+{
+  "name": "CustomerManagementForum",
+  "description": "A tutorial project for GTLC referring John Papa's style guide",
+  "license": "MIT",
+  "keywords": [
+    "CustomerManagementForum",
+    "Management",
+    "Customer",
+    "Forum",
+    "seed",
+    "johnpapa",
+    "styleguide",
+    "node",
+    "express"
+  ],
+  "authors": [
+    "Disha Garg"
+  ],
+  "homepage": "https://github.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "ignore": [],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-mocks": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.6",
+    "jquery-ui": "^1.11.4",
+    "angular-translate": "^2.15.2",
+    "angular-translate-loader-static-files": "^2.15.2",
+    "angular-translate-storage-local": "^2.15.2"
+  },
+  "private": false
+}

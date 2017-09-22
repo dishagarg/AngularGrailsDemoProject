@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!--[if gt IE 8]><!--> <html lang="{{lang}}" ng-app="app" ng-strict-di class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title translate>app.title.name</title>
+        <meta name="description" content="SAP Customers">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+    </head>
+    <body ng-controller="IndexController as IC">
+        <div class="container">
+            <header ui-view="header"></header>
+            <nav ui-view="menu" role="navigation"></nav>
+            <section ui-view="breadcrumbs"></section>
+            <section ui-view="content"></section>
+            <footer ui-view="footer"></footer>
+        </div>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+        <!-- Bower scripts: -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/angular-translate/angular-translate.js"></script>
+        <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+        <script src="bower_components/angular-translate-storage-local/angular-translate-storage-local.js"></script>
+        
+        <!-- Application scripts: -->
+        <script src="core/app.js"></script>
+        <script src="core/app.routes.js"></script>
+        <script src="core/index.controller.js"></script>
+        <script src="core/navigation/breadcrumbs.controller.js"></script>
+        <script src="core/navigation/footer.controller.js"></script>
+        <script src="core/navigation/header.controller.js"></script>
+        <script src="core/navigation/menu.controller.js"></script>
+        <script src="core/customers/edit-customer/edit-customer.controller.js"></script>
+        <script src="core/customers/customers.service.js"></script>
+        <script src="core/customers/list/list.controller.js"></script>
+        <script src="core/customers/add-customer/add-customer.controller.js"></script>
+        <script src="common/directives/about.directive.js"></script>
+        <script src="common/directives/customer-form/customer-form.directive.js"></script>
+        <script src="common/constants/constants.js"></script>
+    </body>
+</html>

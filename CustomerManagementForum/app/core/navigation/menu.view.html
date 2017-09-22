@@ -1,0 +1,19 @@
+<div class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="app-title" class="navbar-brand" href="#/"><img class="image-responsive" src="../../assets/images/SAP-logo.png" style="width: 200px; margin-top: -13px;" /></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li ng-class="MC.getClass('root.customers.list')"><a id="todos-list-page-link" data-ui-sref="root.customers.list">{{'app.nav.view.customer' | translate}}</a></li>
+                <li ng-class="MC.getClass('root.customers.add')"><a id="form-page-link" data-ui-sref="root.customers.add">{{'app.nav.add.customer' | translate}}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

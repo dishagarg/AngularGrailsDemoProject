@@ -1,0 +1,13 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h3 class="panel-title">Edit Customer</h3>
+    </div>
+    <div class="panel-body">
+        <form name="CustomerForm" ng-submit="ECC.updateCustomer(ECC.customer)">
+            <customer-form customer="ECC.customer" form-name="CustomerForm"></customer-form>
+        </form>
+    </div>
+</div>
+
+<pre>form = {{ECC.customer| json}}</pre>
+<pre id="CustomerForm">CustomerForm = {{ECC.customerForm| json}}</pre>
